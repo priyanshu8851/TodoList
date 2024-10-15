@@ -30,6 +30,10 @@ const TodoPannel = () => {
       copyTask.splice(i,1);
       setmainTask(copyTask);
     }
+    const handleReload = () => {
+      window.location.reload();
+    };
+    
   return (
     <>
       <div className="todoPannel main" >
@@ -53,6 +57,7 @@ const TodoPannel = () => {
               <ul className="tskList">
                 {renderTask}
               </ul>
+              <button onClick={()=>{handleReload()}}>Delete All</button>
             </div>
         </div>
       </div>

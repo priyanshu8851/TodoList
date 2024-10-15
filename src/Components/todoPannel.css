@@ -151,3 +151,14 @@ min-height:150px ;
         justify-content: center;
     }
 }
+.taskOvr button{
+    background-color: #000;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px ;
+    color:#fff;
+    font-size: 16px;
+}
+.taskOvr button:hover{
+    cursor: pointer;
+}
